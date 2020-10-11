@@ -1,0 +1,88 @@
+.attribution {
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.attribution a {
+  color: #1d1e35;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: center/cover no-repeat -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background: center/cover no-repeat linear-gradient(#af67e9, #6565e7);
+}
+
+.faqContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  border-radius: 10px;
+}
+
+.faqContent-mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px;
+  background: #ffffff;
+  width: 55%;
+  height: 420px;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 40px 30px -20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 40px 30px -20px rgba(0, 0, 0, 0.3);
+}
+
+.faqContent-imageContainer {
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.faqContent-faqContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
